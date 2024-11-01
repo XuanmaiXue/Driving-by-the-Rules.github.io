@@ -6,18 +6,20 @@
         content="Officail page of Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map">
   <meta name="keywords" content="Driving rules, Dataset and Benchmark">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    .image-container {
-        display: flex; /* 启用 Flexbox 布局 */
-        justify-content: center; /* 水平居中对齐 */
-        align-items: center;     /* 垂直居中对齐 */
-    }
-    .image-container img {
-        max-width: 50%; /* 确保图像自适应宽度 */
-        height: auto; /* 保持高度比例 */
-        margin: 0 10px; /* 添加左右间距 */
-    }
-`</style>
+    <style>
+        .scroll-container {
+            display: flex;              /* 启用 Flexbox 布局 */
+            overflow-x: auto;          /* 使容器可以横向滚动 */
+            white-space: nowrap;       /* 防止内容换行 */
+            width: 100%;               /* 设置容器宽度 */
+            border: 1px solid #ccc;    /* 添加边框以便观察 */
+        }
+        .scroll-container img {
+            max-width: 100%;     /* 确保图像自适应 */
+            height: auto;        /* 保持图像比例 */
+            margin: 10px;        /* 添加间距 */
+        }
+  </style>
   <title>Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -304,7 +306,7 @@
     <div class="container is-max-desktop">
       <h2 class="title is-2">Diversity of MapDR</h2>
               <div class="hero-body">
-                  <div class="image-container">
+                  <div class="scroll-container">
                     <img src="./static/images/traffic_sign_vis.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
                     <img src="./static/images/case2.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
                   </div>
