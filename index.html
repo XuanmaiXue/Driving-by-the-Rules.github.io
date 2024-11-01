@@ -78,6 +78,15 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
+                <a href="https://arxiv.org/pdf/2410.23780"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
                 <a href="https://arxiv.org/abs/2410.23780"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
@@ -117,13 +126,18 @@
     <!-- Abstract. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-2">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Ensuring adherence to traffic sign regulations is essential for both human and autonomous vehicle navigation. While current benchmark datasets concentrate on lane perception or basic traffic sign recognition, they often overlook the intricate task of integrating these regulations into lane operations. Addressing this gap, we introduce \textbf{MapDR}, a novel dataset designed for the extraction of \textbf{D}riving \textbf{R}ules from traffic signs and their association with vectorized, locally perceived HD \textbf{Maps}.
+            Ensuring adherence to traffic sign regulations is essential for both human and autonomous vehicle navigation. 
+            While current benchmark datasets concentrate on lane perception or basic traffic sign recognition, they often overlook the intricate task of integrating these regulations into lane operations. 
+            Addressing this gap, we introduce MapDR, a novel dataset designed for the extraction of Driving Rules from traffic signs and their association with vectorized, locally perceived HD Maps.
           </p>
           <p>
-            MapDR features over 10,000 annotated video clips that capture the intricate correlation between traffic sign regulations and lanes. We define two pivotal sub-tasks: 1) \textbf{Rule Extraction from Traffic Sign}, which accurately deciphers regulatory instructions, and 2) \textbf{Rule-Lane Correspondence Reasoning}, which aligns these rules with their respective lanes.Built upon this benchmark, we provide a multimodal solution that offers a strong baseline for advancing autonomous driving technologies. It fills a critical gap in the integration of traffic sign rules, contributing to the development of reliable autonomous navigation systems.
+            MapDR features over 10,000 annotated video clips that capture the intricate correlation between traffic sign regulations and lanes. 
+            We define two pivotal sub-tasks: 1) Rule Extraction from Traffic Sign, which accurately deciphers regulatory instructions, and 2) Rule-Lane Correspondence Reasoning, which aligns these rules with their respective lanes.
+            Built upon this benchmark, we provide a multimodal solution that offers a strong baseline for advancing autonomous driving technologies. 
+            It fills a critical gap in the integration of traffic sign rules, contributing to the development of reliable autonomous navigation systems.
           </p>
         </div>
       </div>
@@ -145,7 +159,7 @@
     <!-- Dataset. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Dataset</h2>
+        <h2 class="title is-2">Dataset</h2>
         <div class="content has-text-justified">
           <div class="hero-body">
             <img src="./static/images/dataset_demo.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
@@ -173,7 +187,7 @@
     <!-- Task & Benchmark. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Task & Benchmark</h2>
+        <h2 class="title is-2">Task & Benchmark</h2>
         <div class="content has-text-justified">
           <div class="hero-body">
             <img src="./static/images/task_definition.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
@@ -195,7 +209,7 @@
     <!-- Method. -->
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Method</h2>
+        <h2 class="title is-2">Method</h2>
         <div class="content has-text-justified">
           <div class="hero-body">
             <img src="./static/images/architecture.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
@@ -221,11 +235,14 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+    <pre><code>@misc{chang2024drivingrulesbenchmarkintegrating,
+      title={Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map}, 
+      author={Xinyuan Chang and Maixuan Xue and Xinran Liu and Zheng Pan and Xing Wei},
+      year={2024},
+      eprint={2410.23780},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2410.23780}, 
 }</code></pre>
   </div>
 </section>
