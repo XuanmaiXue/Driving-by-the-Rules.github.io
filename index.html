@@ -176,7 +176,7 @@
             <p>
               The ability to discern rules from traffic signs and to associate them with specific lanes is pivotal for autonomous navigation. 
               As depicted in Figure above, traffic signs are primary indicators of lane-level rules. Our proposed task involves two core sub-tasks: 
-              1) Extracting lane-level rules from traffic signs, and 2 Establishing correspondence between these rules and centerlines. 
+              1) Extracting lane-level rules from traffic signs, and 2) Establishing correspondence between these rules and centerlines. 
               Generally, vehicles follow the center of lanes. Therefore, we use centerlines to represent lanes. 
               This approach mirrors human drivers' instinct to observe traffic signs and then relate the indicated rules to the lanes they govern.          
             </p>
@@ -215,31 +215,29 @@
 
     
     <!-- Method. -->
-  <section class="section">
+    <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-2">Approach.</h2>
+              <div class="hero-body" style="text-align: center">
+                  <div class="columns is-centered">
+                    <img src="./static/images/architecture.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
+                  </div>
+                  <p>
+                    Entire approach can be divided into two main parts:  Rule Extraction from Traffic Sign (top) and Rule-Lane Correspondence Reasoning (bottom). 
+                    Rule Extraction model consists of two sequential stages with the same structure VLE but unshared parameters, and the training procedure is independent.          
+                  </p>
+              </div>
+    </div>
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-2">Method</h2>
-        <div class="content has-text-justified">
-          <div class="hero-body">
-            <img src="./static/images/architecture.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <p>
+            </p>
           </div>
-          <p>
-            Entire approach can be divided into two main parts:  Rule Extraction from Traffic Sign (top) and Rule-Lane Correspondence Reasoning (bottom). Rule Extraction model consists of two sequential stages with the same structure VLE but unshared parameters, and the training procedure is independent.          
-          </p>
-          <div class="hero-body">
-            <img src="./static/images/mee.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
-          </div>
-          <p>
-            Vectors can be represented as sequences of points, similar to words in sentences. Inspired by this, we designed MEE akin to language models.
-          </p>
         </div>
       </div>
-    </div>
+    </section> 
     <!--/ Method. -->
-
-  </div>
-</section>
-
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
