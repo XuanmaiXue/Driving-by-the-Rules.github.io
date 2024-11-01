@@ -107,7 +107,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-        <img src="./static/images/overview.jpg" alt="Description of the image" style="max-width: 120%; height: auto;" />
+        <img src="./static/images/overview.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
     </div>
   </div>
   <div class="columns is-centered has-text-centered">
@@ -165,13 +165,20 @@
                   <div class="columns is-centered">
                        <img src="./static/images/task_definition.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
                   </div>
+                  <p>
+                      Step1 ~ Step4 shows a case of driving by the rules.  Step2 and Step3 demonstrates the specific role of two sub-tasks, respectively.          
+                  </p>
               </div>
     </div>
     <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <div class="content has-text-justified">
             <p>
-              Step1 ~ Step4 shows a case of driving by the rules.  Step2 and Step3 demonstrates the specific role of two sub-tasks, respectively.          
+              The ability to discern rules from traffic signs and to associate them with specific lanes is pivotal for autonomous navigation. 
+              As depicted in Figure above, traffic signs are primary indicators of lane-level rules. Our proposed task involves two core sub-tasks: 
+              1) Extracting lane-level rules from traffic signs, and 2 Establishing correspondence between these rules and centerlines. 
+              Generally, vehicles follow the center of lanes. Therefore, we use centerlines to represent lanes. 
+              This approach mirrors human drivers' instinct to observe traffic signs and then relate the indicated rules to the lanes they govern.          
             </p>
           </div>
         </div>
