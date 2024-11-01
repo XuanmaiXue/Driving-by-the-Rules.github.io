@@ -187,33 +187,30 @@
     <!--/ Task & Benchmark. -->
 
     <!-- Dataset. -->
-   <section class="section">
+    <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-2">Dataset: MapDR.</h2>
+              <div class="hero-body" style="text-align: center">
+                  <div class="columns is-centered">
+                       <img src="./static/images/dataset_demo.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
+                  </div>
+                  <p>
+                      Multiple lane-level rules of a single traffic sign are annotated in {key:value} format. Directed lines indicate the correspondence between rules and particular centerlines.          
+                  </p>
+              </div>
+    </div>
     <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-2">Dataset</h2>
-        <div class="content has-text-justified">
-          <div class="hero-body">
-            <img src="./static/images/dataset_demo.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <p>
+            We introduce the MapDR dataset, meticulously annotated with traffic sign regulations and their correspondences to lanes, as shown in Figure above. 
+            The dataset encompasses a diverse range of scenarios, weather conditions, and traffic situations, with over 10,000 traffic scene segments, 18,000 driving rules, and 400,000 images.
+            Traffic signs typically have varying textual descriptions, text layouts, and positions on the road, which add complexity to the task.
+            </p>
           </div>
-          <p>
-            Multiple lane-level rules of a single traffic sign are annotated in $\{key:value\}$ format. Directed lines indicate the correspondence between rules and particular centerlines.
-          </p>
-          <div class="hero-body">
-            <img src="./static/images/traffic_sign_vis.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
-          </div>
-          <p>
-            Visualization of various traffic signs. 
-          </p>
-          <div class="hero-body">
-            <img src="./static/images/case1.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
-          </div>
-          <p>
-            Visualization of annotation of Rule Extraction and Correspondence Reasoning.
-          </p>
         </div>
       </div>
-    </div>
-   </section>>
+    </section> 
     <!--/ Dataset. -->
 
     
