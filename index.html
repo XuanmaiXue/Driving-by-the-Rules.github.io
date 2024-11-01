@@ -6,6 +6,17 @@
         content="Officail page of Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map">
   <meta name="keywords" content="Driving rules, Dataset and Benchmark">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    .image-container {
+        display: flex; /* 启用 Flexbox 布局 */
+        justify-content: center; /* 水平居中对齐 */
+    }
+    .image-container img {
+        max-width: 100%; /* 确保图像自适应宽度 */
+        height: auto; /* 保持高度比例 */
+        margin: 0 10px; /* 添加左右间距 */
+    }
+`</style>
   <title>Driving by the Rules: A Benchmark for Integrating Traffic Sign Regulations into Vectorized HD Map</title>
 
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -286,6 +297,32 @@
       </div>
     </section> 
     <!--/ Results. -->
+  
+    <!-- Visualization. -->
+    <section class="section">
+    <div class="container is-max-desktop">
+      <h2 class="title is-2">More visualization of MapDR</h2>
+              <div class="hero-body">
+                  <div class="image-container">
+                    <img src="./static/images/case1.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
+                    <img src="./static/images/case2.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
+                  </div>
+                  <p>
+                    MapDR includes various types and layouts of traffic signs, which contain various driving rules. 
+                    This presents challenges and necessity for accurately interpreting these traffic signs and associating them with the corresponding lanes.
+                  </p>
+              </div>
+    </div>
+    <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="content has-text-justified">
+            <p>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <!--/ Visualization. -->
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
