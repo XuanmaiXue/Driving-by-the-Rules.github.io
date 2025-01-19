@@ -130,7 +130,7 @@
         <div class="column is-four-fifths">
           <div class="content has-text-justified">
             <p>
-              For safe autonomous driving, accurate interpretation of lanes and traffic signs is crucial, ensuring vehicles maintain proper positioning and follow driving rules. This figure illustrates an intersection scene where extracted traffic sign rules are integrated into the corresponding lanes on the HD map.
+              <i>For safe autonomous driving, accurate interpretation of lanes and traffic signs is crucial, ensuring vehicles maintain proper positioning and follow driving rules. This figure illustrates an intersection scene where extracted traffic sign rules are integrated into the corresponding lanes on the HD map.</i>
             </p>
           </div>
         </div>
@@ -260,8 +260,7 @@
                     <img src="./static/images/case2.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
                   </div>
                   <p>
-                    MapDR includes various types and layouts of traffic signs, which contain various driving rules. 
-                    This presents challenges and necessity for accurately interpreting these traffic signs and associating them with the corresponding lanes.
+                    <i>MapDR includes various types and layouts of traffic signs, which contain various driving rules. This presents challenges and necessity for accurately interpreting these traffic signs and associating them with the corresponding lanes.</i>
                   </p>
               </div>
     </div>
@@ -282,35 +281,20 @@
     <div class="container is-max-desktop">
       <h2 class="title">Modular Approach</h2>
               <div class="hero-body">
-                  <div class="columns is-centered">
+                  <div class="scroll-container">
                     <img src="./static/images/architecture.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
-                  </div>
-                  <p>
-                    <i>Entire approach can be divided into two main parts:  Rule Extraction from Traffic Sign (top) and Rule-Lane Correspondence Reasoning (bottom). Rule Extraction model consists of two sequential stages with the same structure VLE but unshared parameters, and the training procedure is independent.</i>          
-                  </p>
-              </div>
-              <div class="hero-body">
-                  <div class="columns is-centered">
                     <img src="./static/images/mee_new.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
                   </div>
+                  <p>
+                    <i>Entire approach can be divided into two main parts:  Rule Extraction from Traffic Sign (top) and Rule-Lane Correspondence Reasoning (bottom). Rule Extraction model consists of two sequential stages with the same structure VLE but unshared parameters, and the training procedure is independent.</i>
+                  </p>
                   <p>
                     <i>Vectors can be represented as sequences of points, similar to words in sentences. Inspired by this, we designed MEE akin to BERT.</i>      
                   </p>
               </div>
     </div>
-    <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <div class="content has-text-justified">
-            <p>
-            </p>
-          </div>
-        </div>
-      </div>
     </section> 
     <!--/ Modular Approach -->
-
-
-
 
   
     <!-- End-to-End Approach -->
