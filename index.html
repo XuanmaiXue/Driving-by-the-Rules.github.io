@@ -118,23 +118,7 @@
   </div>
 </section>
 
-<!-- <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-        <img src="./static/images/overview_new.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
-    </div>
-  </div>
-  <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <div class="content has-text-justified">
-          <p>
-            For safe autonomous driving, accurate interpretation of lanes and traffic signs is crucial, ensuring vehicles maintain proper positioning and follow driving rules. This figure illustrates an intersection scene where extracted traffic sign rules are integrated into the corresponding lanes on the HD map.
-          </p>
-        </div>
-      </div>
-    </div>
-</section> -->
-
+  
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
@@ -164,15 +148,13 @@
         <h2 class="title is-2">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Ensuring adherence to traffic sign regulations is essential for both human and autonomous vehicle navigation. 
-            While current benchmark datasets concentrate on lane perception or basic traffic sign recognition, they often overlook the intricate task of integrating these regulations into lane operations. 
-            Addressing this gap, we introduce MapDR, a novel dataset designed for the extraction of Driving Rules from traffic signs and their association with vectorized, locally perceived HD Maps.
+Ensuring adherence to traffic sign regulations is essential for both human and autonomous vehicle navigation. While current online mapping solutions often prioritize the construction of the geometric and connectivity layers of HD maps, overlooking the construction of the traffic regulation layer within HD maps. Addressing this gap, we introduce <strong>MapDR</strong>, a novel dataset designed for the extraction of <b>D</b>riving <b>R</b>ules from traffic signs and their association with vectorized, locally perceived HD <b>Maps</b>. 
+MapDR features over <i>10,000</i> annotated video clips that capture the intricate correlation between traffic sign regulations and lanes.
+
           </p>
           <p>
-            MapDR features over 10,000 annotated video clips that capture the intricate correlation between traffic sign regulations and lanes. 
-            We define two pivotal sub-tasks: 1) Rule Extraction from Traffic Sign, which accurately deciphers regulatory instructions, and 2) Rule-Lane Correspondence Reasoning, which aligns these rules with their respective lanes.
-            Built upon this benchmark, we provide a multimodal solution that offers a strong baseline for advancing autonomous driving technologies. 
-            It fills a critical gap in the integration of traffic sign rules, contributing to the development of reliable autonomous navigation systems.
+Built upon this benchmark and the newly defined task of integrating traffic regulations into online HD maps, we provide modular and end-to-end solutions: <strong>VLE-MEE</strong> and <strong>RuleVLM</strong>, offering a strong baseline for advancing autonomous driving technology. 
+It fills a critical gap in the integration of traffic sign rules, contributing to the development of reliable autonomous driving systems.
           </p>
         </div>
       </div>
