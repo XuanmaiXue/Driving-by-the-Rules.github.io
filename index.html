@@ -289,18 +289,10 @@
                     <img src="./static/images/qwendr.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
                   </div>
                   <p>
-                    <i>VLE and MEE without any introduced technique serve as the baseline. Note that "∗" denotes models can not converge in the setting.</i>   
+                    <i>Qwen-VL(TextPrompt) encodes centerline coordinates inthe PV image as text, inputs them into QwenLM; Qwen-VL(VisualPrompt) visualizes the centerline and its index inthe PV image and inputs it as Visual Prompt into QwenLM,while RuleVLM uses MEE with the cross-attention layerremoved to encode vectorized centerline results and aligns itwith LLM through an adapter. </i>   
                   </p>
               </div>
     </div>
-    <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          <div class="content has-text-justified">
-            <p>
-            </p>
-          </div>
-        </div>
-      </div>
     </section> 
     <!--/ End-to-End Approach -->
   
@@ -311,10 +303,10 @@
       <h2 class="title">Experiment</h2>
               <div class="hero-body">
                   <div class="columns is-centered">
-                    <img src="./static/images/main_results.png" alt="Description of the image" style="max-width: 100%; height: auto;" />
+                    <img src="./static/images/result_new.jpg" alt="Description of the image" style="max-width: 100%; height: auto;" />
                   </div>
                   <p>
-                    <i>VLE and MEE without any introduced technique serve as the baseline. Note that "∗" denotes models can not converge in the setting.</i>   
+                    <i>The heuristic method and the Qwen-VL(TextPrompt) method serve as the baselines for the modularand end-to-end approach, respectively. "−" denotes end-to-end approach is not suitable to independent evaluations of C.R. because theseapproaches do not utilize ground truth of rules for correspondence reasoning independently.</i>   
                   </p>
               </div>
     </div>
